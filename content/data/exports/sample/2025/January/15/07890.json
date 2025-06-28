@@ -30,7 +30,31 @@
     "type": "Incident",
     "description": "<div>This is a unique ticket with no duplicates</div>",
     "description_text": "This is a unique ticket with no duplicates",
-    "custom_fields": {},
+    "custom_fields": {
+      "location": "Boston Office",
+      "major_incident_type": null,
+      "requested_date": "2025-01-15T08:00:00Z",
+      "ticket_type": "IT",
+      "time_zone": "EST",
+      "transferred": false,
+      "user_change_date": null,
+      "user_impact": "Unique test case - isolated scenario",
+      "business_impact": "None - validation testing",
+      "impacted_locations": null,
+      "no_of_customers_impacted": 0,
+      "jira_url": "https://company.atlassian.net/browse/UNIQUE-7890",
+      "user_change_email": null,
+      "change_number": null,
+      "fedex_return_tracking": null,
+      "fedex_tracking": null,
+      "msf_closure_code": [
+        "Unique Case Resolved"
+      ],
+      "msf_cause_code": [
+        "Data Validation"
+      ],
+      "lf_on_behalf_of": 19002978605
+    },
     "tasks_dependency_type": 0
   },
   "conversations": [],

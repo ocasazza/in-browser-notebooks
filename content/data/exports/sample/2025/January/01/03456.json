@@ -30,7 +30,31 @@
     "type": "Incident",
     "description": "<div>This is the first version of ticket 3456</div>",
     "description_text": "This is the first version of ticket 3456",
-    "custom_fields": {},
+    "custom_fields": {
+      "location": "Seattle Office",
+      "major_incident_type": null,
+      "requested_date": "2025-01-01T14:00:00Z",
+      "ticket_type": "IT",
+      "time_zone": "PST",
+      "transferred": false,
+      "user_change_date": null,
+      "user_impact": "Test scenario - no real impact",
+      "business_impact": "None - test data",
+      "impacted_locations": null,
+      "no_of_customers_impacted": 0,
+      "jira_url": "https://company.atlassian.net/browse/TEST-3456",
+      "user_change_email": null,
+      "change_number": null,
+      "fedex_return_tracking": null,
+      "fedex_tracking": null,
+      "msf_closure_code": [
+        "Test Case Verified"
+      ],
+      "msf_cause_code": [
+        "Sample Data Generation"
+      ],
+      "lf_on_behalf_of": 19002978604
+    },
     "tasks_dependency_type": 0
   },
   "conversations": [],

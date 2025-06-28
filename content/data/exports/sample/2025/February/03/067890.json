@@ -1,0 +1,89 @@
+{
+  "ticket": {
+    "subject": "Hardware replacement - laptop screen damage",
+    "group_id": 19000123458,
+    "department_id": 19000267444,
+    "category": "Hardware - Repair",
+    "sub_category": "Laptop Issues",
+    "item_category": "Display",
+    "requester_id": 19002408765,
+    "responder_id": 19001332959,
+    "due_by": "2025-02-07T17:00:00Z",
+    "fr_escalated": false,
+    "deleted": false,
+    "spam": false,
+    "email_config_id": 19000456790,
+    "fwd_emails": [],
+    "reply_cc_emails": [
+      "warranty@example.com"
+    ],
+    "cc_emails": [
+      "mike.johnson@example.com",
+      "asset-management@example.com"
+    ],
+    "is_escalated": false,
+    "fr_due_by": "2025-02-04T17:00:00Z",
+    "id": 67890,
+    "priority": 2,
+    "status": 6,
+    "source": 1,
+    "created_at": "2025-02-03T10:15:00Z",
+    "updated_at": "2025-02-03T15:20:00Z",
+    "workspace_id": 2,
+    "requested_for_id": 19002408765,
+    "to_emails": [
+      "hardware-support@example.com"
+    ],
+    "type": "Incident",
+    "description": "<div>Employee's laptop screen has a large crack across the display making it difficult to read. The damage appears to be from accidental impact. Device is still functional but screen replacement is needed for continued productivity.</div>",
+    "description_text": "Employee's laptop screen has a large crack across the display making it difficult to read. The damage appears to be from accidental impact. Device is still functional but screen replacement is needed for continued productivity.",
+    "custom_fields": {
+      "location": "Chicago Office",
+      "major_incident_type": null,
+      "requested_date": "2025-02-03T10:15:00Z",
+      "ticket_type": "IT",
+      "time_zone": "CST",
+      "transferred": true,
+      "user_change_date": "2025-02-04T09:00:00Z",
+      "user_impact": "Reduced productivity due to damaged screen",
+      "business_impact": "Low - individual user impact",
+      "impacted_locations": null,
+      "no_of_customers_impacted": 1,
+      "jira_url": "https://company.atlassian.net/browse/HW-7890",
+      "user_change_email": "mike.johnson@example.com",
+      "change_number": "CHG0067890",
+      "fedex_return_tracking": "1234567890123",
+      "fedex_tracking": "9876543210987",
+      "msf_closure_code": [
+        "Hardware Replaced"
+      ],
+      "msf_cause_code": [
+        "Physical Damage"
+      ],
+      "lf_on_behalf_of": 19002978603
+    },
+    "tasks_dependency_type": 2
+  },
+  "conversations": [
+    {
+      "id": 19001234570,
+      "body": "Damage assessment completed. Screen replacement required.",
+      "created_at": "2025-02-03T11:00:00Z",
+      "user_id": 19001332959
+    },
+    {
+      "id": 19001234571,
+      "body": "Replacement part ordered. Temporary laptop provided to user.",
+      "created_at": "2025-02-03T14:30:00Z",
+      "user_id": 19001332959
+    },
+    {
+      "id": 19001234572,
+      "body": "Screen replacement completed. Device returned to user.",
+      "created_at": "2025-02-03T15:15:00Z",
+      "user_id": 19001332959
+    }
+  ],
+  "exported_at": "2025-06-28T03:29:25.745727",
+  "export_version": "1.0"
+}

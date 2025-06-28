@@ -30,7 +30,31 @@
     "type": "Incident",
     "description": "<div>This is the oldest version of ticket 2102</div>",
     "description_text": "This is the oldest version of ticket 2102",
-    "custom_fields": {},
+    "custom_fields": {
+      "location": "Austin Office",
+      "major_incident_type": null,
+      "requested_date": "2025-01-01T09:00:00Z",
+      "ticket_type": "IT",
+      "time_zone": "CST",
+      "transferred": false,
+      "user_change_date": null,
+      "user_impact": "Minor inconvenience for single user",
+      "business_impact": "Low - test ticket only",
+      "impacted_locations": null,
+      "no_of_customers_impacted": 1,
+      "jira_url": null,
+      "user_change_email": null,
+      "change_number": null,
+      "fedex_return_tracking": null,
+      "fedex_tracking": null,
+      "msf_closure_code": [
+        "Test Completed"
+      ],
+      "msf_cause_code": [
+        "Test Data"
+      ],
+      "lf_on_behalf_of": null
+    },
     "tasks_dependency_type": 0
   },
   "conversations": [],
