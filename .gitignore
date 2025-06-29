@@ -6,6 +6,7 @@ node_modules/
 .ipynb_checkpoints
 *.tsbuildinfo
 .venv
+.env
 
 # Created by https://www.gitignore.io/api/python
 # Edit at https://www.gitignore.io/?templates=python
@@ -118,6 +119,4 @@ _output
 
 # private or sensitive local data
 content/data/exports/freshservice/
-
-# todo: refactor keys into .env so we can remove this
-src/*
+export/*
