@@ -1,0 +1,3 @@
+[submodule "freshpy"]
+	path = freshpy
+	url = ./freshpy/
